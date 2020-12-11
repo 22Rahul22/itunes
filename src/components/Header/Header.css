@@ -1,0 +1,42 @@
+.nav-wrapper {
+    display: flex;
+    justify-content: center;
+    height: 64px;
+    filter: none;
+
+}
+
+.navbar-fixed{
+    position: relative;
+    z-index: 1;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+}
+
+.nav-bg{
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+
+}
+
+.header-search-wrapper {
+    position: relative;
+    width: 40vw;
+    margin-top: 10px;
+}
+
+.ant-input{
+    height: 44.5px;
+}
+
+.ant-input-search-button {
+    height: 44.8px !important;
+}
+
+.navbar-middle{
+    padding-top: 10vh;
+}
+

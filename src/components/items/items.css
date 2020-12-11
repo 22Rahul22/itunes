@@ -1,0 +1,25 @@
+.view-button{
+    position: relative;
+    top:12px;
+    padding: 5px 10px;
+    background-color: rgb(24, 144, 255);
+    border-radius: 5px;
+    font-size: 17px;
+    box-shadow: 0 4px 12px rgba(24, 144, 255,.4);
+    color: white;
+    transition: all 0.4s ease-in;
+}
+
+.view-button:hover{
+    color:white;
+    background-color: rgb(4, 129, 247);
+}
+
+.ant-card-bordered{
+    border:none !important;
+}
+
+.ant-card{
+    background-color: rgba(255,255,255,0.5) !important;
+    backdrop-filter: blur(10px);
+}
